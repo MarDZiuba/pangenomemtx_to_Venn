@@ -1,7 +1,7 @@
 ### Compararison of orthologous gene groups with pangenomemtx_to_Venn
 ---
 
-This repository contains the jupyter notebook with the code used for interrogating the pangenome matrix and demonstrating the result of it as Venn diagrams in the following paper:
+This repository contains the <a href="https://github.com/MarDZiuba/pangenomemtx_to_Venn/blob/9d15e168dad0cd0cf928538c10e5f93fc4e0b5de/pangenomemtx_to_Venn.ipynb" title="pangenomemtx_to_Venn">jupyter notebook</a> with the code used for interrogating the pangenome matrix and demonstrating the result of it as Venn diagrams in the following paper:
 
 Dziuba M.V., Müller F.D., Posfai M., Schüler D. (2023) **Exploring the host range for genetic transfer of magnetic organelle biosynthesis.** *In preparation.*
 
@@ -18,4 +18,4 @@ Magnetosomes produced by magnetotactic bacteria have great potential for applica
 
 The pangenome matrix produced by get_homologues with the following parameters for defining clusters of orthologous proteins: OrthoMCL clustering algorithm, the cut-off threshold for pairwise blastp alignments E value < 10e-5 and a minimal protein coverage of 50%.
 
-pangenome_matrix_t0.tr.tab
+* <a href="https://github.com/MarDZiuba/pangenomemtx_to_Venn/blob/9d15e168dad0cd0cf928538c10e5f93fc4e0b5de/pangenome_matrix_t0.tr.tab" title="pangenome_matrix_t0.tr.tab">pangenome matrix</a>
