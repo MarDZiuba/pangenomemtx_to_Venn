@@ -18,4 +18,4 @@ Magnetosomes produced by magnetotactic bacteria have great potential for applica
 
 The pangenome matrix produced by get_homologues with the following parameters for defining clusters of orthologous proteins: OrthoMCL clustering algorithm, the cut-off threshold for pairwise blastp alignments E value < 10e-5 and a minimal protein coverage of 50%.
 
-link to .tab
+pangenome_matrix_t0.tr.tab
