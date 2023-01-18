@@ -1,9 +1,9 @@
 ### Comparison of orthologous gene groups with pangenomemtx_to_Venn
 ---
 
-This repository contains a <a href="https://github.com/MarDZiuba/pangenomemtx_to_Venn/blob/9d15e168dad0cd0cf928538c10e5f93fc4e0b5de/pangenomemtx_to_Venn.ipynb" title="pangenomemtx_to_Venn">jupyter notebook</a> with the code used for comparison of the orthologous gene sets between different organisms. The analysis was developed for and used in this paper:
+This repository contains a <a href="pangenomemtx_to_Venn.ipynb" title="pangenomemtx_to_Venn">jupyter notebook</a> with the code used for comparison of the orthologous gene sets between different organisms. The analysis was developed for and used in this paper:
 
-Dziuba M.V., Müller F.D., Posfai M., Schüler D. (2023) **Exploring the host range for genetic transfer of magnetic organelle biosynthesis.** *In preparation.*
+Dziuba M.V., Müller F.D., Pósfai M., Schüler D. (2023) **Exploring the host range for genetic transfer of magnetic organelle biosynthesis.** *In preparation.*
 
 The script accepts the pangenome matrix produced by <a href="https://github.com/eead-csic-compbio/get_homologues" title="get_homologues">get_homologues</a> software as input and retrieves the orthologous gene sets shared by a specified organism or a group of organisms in comparison to the other groups. In additions to the lists of such genes, it produces Venn diagrams for visualization of the orthologous groups destribution.
 
@@ -19,4 +19,7 @@ Magnetosomes produced by magnetotactic bacteria have great potential for applica
 
 The pangenome matrix produced by *get_homologues* with the following parameters for defining clusters of orthologous proteins: OrthoMCL clustering algorithm, the cut-off threshold for pairwise blastp alignments E value < 10e-5 and a minimal protein coverage of 50%.
 
-* <a href="https://github.com/MarDZiuba/pangenomemtx_to_Venn/blob/9d15e168dad0cd0cf928538c10e5f93fc4e0b5de/pangenome_matrix_t0.tr.tab" title="pangenome_matrix_t0.tr.tab">pangenome matrix</a>
+* <a href="pangenome_matrix_t0.tr.tab" title="pangenome_matrix_t0.tr.tab">pangenome matrix</a>
+
+The collection of all found orthologous protein clusters can be found here:
+* <a href="sample_intersection.7z" title="all_orthologues">all_orthologues</a>
