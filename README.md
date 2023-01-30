@@ -21,5 +21,10 @@ The pangenome matrix produced by *get_homologues* with the following parameters 
 
 * <a href="pangenome_matrix_t0.tr.tab" title="pangenome_matrix_t0.tr.tab">pangenome matrix</a>
 
+The cleaned (tidy) pangenome matrix with proper species names and containing only the species selected for the analysis:
+
+* <a href="Pangenome_matrix_clean.xlsx" title="Pangenome_matrix_clean.xlsx">tidy pangenome matrix</a>
+
 The collection of all found orthologous protein clusters can be found here:
+
 * <a href="sample_intersection.7z" title="all_orthologues">all_orthologues</a>
